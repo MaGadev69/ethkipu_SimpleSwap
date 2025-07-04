@@ -1,9 +1,15 @@
-# Proyecto SimpleSwap
+# SimpleSwap Project
 
-Este proyecto implementa un contrato inteligente `SimpleSwap` para un intercambio de tokens simple, junto con los contratos de token ERC20 necesarios.
+This project implements a `SimpleSwap` smart contract for simple token exchange, along with the necessary ERC20 token contracts.
 
-## Estado del Proyecto
+## Project Status
 
-El contrato `SimpleSwap.sol` y los contratos de token asociados funcionan correctamente en un entorno de desarrollo local (REMIX).
+The `SimpleSwap.sol` contract and associated token contracts are working correctly both in local development environment (REMIX) and with connection to testnet (SEPOLIA) to the verifier contract.
 
-Pero la implementación se detuvo durante la verificacion debido a dificultades con la importación de las dependencias de OpenZeppelin al momento de verificar. Se utilizo herramientas como `Flattener`, sourcify.dev, etc. para importar los contratos, pero no se logro resolver el problema de importacion. 
+### Transaction Details
+
+**Main Transaction:**
+https://sepolia.etherscan.io/tx/0x105311cf722b3799ce5830abfadbc20bbb669e82a87d14ddfd0c64d464c347f5
+
+**Transaction with Author Field:**
+https://sepolia.etherscan.io/inputdatadecoder?tx=0x105311cf722b3799ce5830abfadbc20bbb669e82a87d14ddfd0c64d464c347f5
