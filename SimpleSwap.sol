@@ -11,9 +11,9 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
  */
 contract SimpleSwap is ERC20 {
     /// @notice The address of the first token in the liquidity pool.
-    IERC20 public tokenA;
+    IERC20 public tokenA(USDC);
     /// @notice The address of the second token in the liquidity pool.
-    IERC20 public tokenB;
+    IERC20 public tokenB(WBTC);
 
     /// @notice The total reserve of tokenA held by this contract.
     uint256 public reserveA;
