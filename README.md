@@ -33,13 +33,6 @@ The `SimpleSwap.sol` contract and associated token contracts are **fully operati
 - **Development Environment**: REMIX IDE
 - **Token Standard**: ERC20
 
-## 📝 Features
-
-- Simple token exchange functionality
-- ERC20 token compatibility
-- Testnet deployment ready
-- Contract verification support
-
 ---
 
 ## 🔍 Verification
@@ -47,5 +40,3 @@ The `SimpleSwap.sol` contract and associated token contracts are **fully operati
 The contract has been successfully verified on the Sepolia testnet. You can view the transaction details using the links provided above to confirm the deployment and functionality.
 
 ---
-
-*Project developed and tested on Ethereum Sepolia testnet*
